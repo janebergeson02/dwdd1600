@@ -1,0 +1,144 @@
+body {
+    background-color: #fcf8e0;
+}
+
+body {
+    font-family: "Sofia Sans Semi Condensed", serif;
+}
+
+/* header stuff here */
+header {
+    background-color: #ffed86;
+    padding: 1rem 10px;
+    border-bottom: 3px solid #dc469b; /* Adds a bottom border */
+}
+
+header span {
+    color: #332cbd;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* navigation stuff here */
+nav {
+    background-color: #332cbd;
+    border: 2px solid #ff83c9; /* Adds a pink border */
+    border-radius: 8px; /* Rounds navigation bar corners */
+}
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #ff83c9;
+    font-weight: 700;
+}
+
+nav li.active a {
+    background-color: #ff83c9;
+    color: #332cbd;
+}
+
+nav li a:hover {
+    color: #fcf8e0;
+}
+
+/* main stuff here */
+main {
+    padding: 1rem 10px;
+    border: 2px solid #dc469b; /* Adds a border around main content */
+    border-radius: 10px; /* Rounds the corners */
+}
+
+main h1 {
+    color: #dc469b;
+}
+
+main h2 {
+    color: #332cbd;
+    margin-bottom: .2rem;
+}
+
+main p {
+    margin: 0;
+    color: #333;
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #fcf8e0;
+}
+
+main dl dt {
+    color: #dc469b;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: #333;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+main ul {
+    list-style-type: square;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main strong {
+    font-weight: 700;
+    color: black;
+}
+
+main em {
+    font-weight: 300;
+}
+
+main a {
+    color: #332cbd;
+}
+
+main a:hover {
+    color: #ff83c9;
+}
+
+div.image-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.image-row figure {
+margin: .5rem 2% 0 0;
+
+}
+div.image-row figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #332cbd;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ffed86;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #333;
+    letter-spacing: 3px;
+}
